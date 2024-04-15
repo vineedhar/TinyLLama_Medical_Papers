@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.TINY_LLAMA_TOKEN }}
-        run: git push https://Vineedhar:$HF_TOKEN@huggingface.co/spaces/Vineedhar/Medical_papers_inference_TinyLLama main
+        run: git push --force https://Vineedhar:$HF_TOKEN@huggingface.co/spaces/Vineedhar/Medical_papers_inference_TinyLLama main
