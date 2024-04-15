@@ -1,0 +1,8 @@
+-q -U peft==0.8.2 
+-q -U datasets==2.17.0
+-q -U loralib==0.1.1
+-q -U einops==0.6.1
+-U git+https://github.com/huggingface/transformers.git
+trl
+https://pypi.org/simple/ bitsandbytes --upgrade
+accelerate --upgrade
